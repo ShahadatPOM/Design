@@ -77,13 +77,11 @@ a{
 .header_logo{
 	width: 20%;
 	float: left;
-	text-align: center;
 	padding-top: 20px;
 }
 
 .header_logo a img{
-	width: 70px;
-
+	width: 60px;
 }
 
 .header_right{
@@ -93,8 +91,8 @@ a{
 }
 
 .header_right .search_box{
-	width: 250px;
-	height: 35px;
+	width: 200px;
+	height: 30px;
 	padding: 5px;
 	box-sizing: border-box;
 	border: 0;
@@ -103,8 +101,9 @@ a{
 }
 
 .header_right .search_btn{
-	height: 35px;
+	height: 30px;
 	width: 60px;
+	color: #fff;
 	border: 0;
 	background-color: #bd070e;
 	border-radius: 0 5px 5px 0;

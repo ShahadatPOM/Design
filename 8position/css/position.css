@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.main{
+	height: 600px;
+	width: 800px;
+	margin: auto;
+	background-color: bisque;
+	position: relative;
+}
+
+.one,
+.two,
+.three,
+.four{
+	height: 250px;
+	width: 200px;
+	position: absolute;
+	transition: .5s;
+}
+
+.one{
+	background-color: red;
+	left: 0;
+	top: 0;
+	z-index: ;
+}
+
+.one:hover{
+	background-color: aqua;
+	width: 400px;
+}
+
+.two{
+	left: 100px;
+	top: 100px;
+	background-color: green;
+}
+
+.two:hover{
+	background-color: #1abc9c;
+	width: 400px;
+}
+
+.three{
+	left: 200px;
+	top: 200px;
+	background-color: blue;
+}
+
+.three:hover{
+	background-color: #2ecc71;
+	width: 400px;
+}
+
+.four{
+	left: 300px;
+	top: 300px;
+	background-color: yellow;
+}
+
+.four:hover{
+	background-color: #3498db;
+	width: 400px;
+}
