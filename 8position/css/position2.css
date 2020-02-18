@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.media{
+	height: 250px;
+	width: 520px;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.media img {
+    width: 100%;
+}
+
+.media_inner{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	bottom: 0;
+	width: 200px;
+	padding: 15px;
+	box-sizing: border-box;
+
+}
