@@ -30,6 +30,10 @@ img{
 	background-color: #2F4F4F;
 }
 
+.menu li:hover >a{
+	background-color: #4682B4;
+}
+
 .menu li li{
 	display: block;
 }
