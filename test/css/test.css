@@ -16,10 +16,10 @@ a{
 	margin: auto;
 }
 
-/*top header part start*/
+/*top header css start*/
 .top_header{
+	height: 40px;
 	background-color: #bd070e;
-	height: 60px;
 }
 
 .top_header_left{
@@ -28,9 +28,10 @@ a{
 }
 
 .top_header_left h2{
-	color: #fff;
 	font-size: 20px;
-	padding-top: 15px;
+	color: #fff;
+	text-transform: uppercase;
+	padding-top: 9px;
 }
 
 .top_header_mid{
@@ -40,7 +41,7 @@ a{
 
 .top_header_mid marquee{
 	color: #fff;
-	padding-top: 20px;
+	padding-top: 11px;
 }
 
 .top_social_icon{
@@ -49,13 +50,12 @@ a{
 }
 
 .top_social_icon a img{
-	width: 30px;
-	padding-top: 15px;
+	width: 25px;
+	padding-top: 8px;
 }
-/*top header part end*/
+/*top header css end*/
 
-
-/*header part start*/
+/*header part css start*/
 .header{
 	height: 150px;
 }
@@ -66,49 +66,48 @@ a{
 }
 
 .header_left a{
-	padding: 10px;
+	color: #fff;
 	background-color: #bd070e;
+	padding: 10px;
 	margin-top: 40px;
 	display: inline-block;
 	border-radius: 5px;
-	color: #fff;
-}
+} 
 
 .header_logo{
 	width: 20%;
 	float: left;
-	text-align: center;
 	padding-top: 20px;
 }
 
 .header_logo a img{
-	width: 80px;
+	width: 60px;
 }
+
 .header_right{
 	width: 40%;
 	float: left;
-	text-align: right;
 	padding-top: 50px;
 }
 
 .header_right .search_box{
-	height: 35px;
-	width: 250px;
-	background-color: #ddd;
-	border: 0;
-	border-radius: 5px 0 0 5px;
-	padding: 0 15px;
+	width: 200px;
+	height: 30px;
+	padding: 5px;
 	box-sizing: border-box;
+	border: 0;
+	background-color: #ddd;
+	border-radius: 5px 0 0 5px;
 }
 
-.search_btn{
-	height: 35px;
-	background: #bd070e;
-	color: #fff;
+.header_right .search_btn{
+	height: 30px;
 	width: 60px;
+	color: #fff;
 	border: 0;
-	margin-left: -5px;
+	background-color: #bd070e;
 	border-radius: 0 5px 5px 0;
+	margin-left: -5px;
 	cursor: pointer;
 }
-/*header part end*/
+/*header part css end*/

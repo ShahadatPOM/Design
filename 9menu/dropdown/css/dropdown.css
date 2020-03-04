@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+.menu{
+	margin: 100px;
+}
+
+
+.menu li{
+	display: inline-block;
+	position: relative;
+	
+}
+
+.menu li:hover > a{
+	background: #32CD32;
+}
+
+.menu li a{
+	display: block;
+	background: #FF6347;
+	color: #fff;
+	padding: 10px 20px;
+	font-family: sans-serif;
+	text-transform: capitalize;
+}
+
+.menu li ul li{
+	display: block;
+}
+
+.menu li ul{
+	position: absolute;
+	left: 0;
+	top: 100%;
+	display: none;
+}
+
+.menu li:hover > ul{
+	display: block;
+}
+
+.menu li ul ul{
+	left: 100%;
+	top: 0;
+}
+
+
