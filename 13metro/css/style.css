@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clr {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*navbar part*/
+.full-wr {
+	width: 100%;
+}
+
+.full-menu {
+	background-color: #646483;
+	padding: 35px 0;
+}
+
+.main-wr {
+	width: 1140px;
+	margin: auto;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.menu {
+	width: 70%;
+	float: left;
+	text-align: right;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	color: #ffffff;
+	padding: 10px 12px;
+	display: block;
+	font-family: 'Exo', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 17px;
+}
+
+/*Banner pert*/
+.full-banner {
+	background: url(../images/banner.jpg) left top no-repeat;
+	background-size: cover;
+	height: 800px;
+	position: relative;
+}
+
+.full-wrapper:before{
+	content: "";
+	
+}
