@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.clr {
+	clear: both;
+}
+
+.full-wr {
+	width: 100%;
+}
+
+.main-wr {
+	width: 1140px;
+	margin: auto;
+}
+
+.full-menu {
+	padding: 30px 0;
+	background-color: #E81123;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.menu {
+	width: 70%;
+	float: left;
+	text-align: right;
+}
+
+.menu ul li{
+	display: inline-block;
+}
+
+.menu ul li a{
+	display: block;
+	padding: 10px 12px;
+	color: #000000;
+	font-size: 16px;
+	font-weight: 700;
+	font-family: 'Exo', sans-serif;
+	text-transform: uppercase;
+}
