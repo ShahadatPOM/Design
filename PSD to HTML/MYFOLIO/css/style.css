@@ -1,0 +1,111 @@
+/*common part*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.clr {
+	clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.full-wr {
+	width: 100%
+}
+
+.main-wr {
+	width: 1140px;
+	margin: auto;
+}
+
+/*header part -- Menu and Logo --*/
+.full-menu {
+	background-color: transparent;
+	padding: 20px 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.menu {
+	width: 70%;
+	float: left;
+	text-align: right;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	display: block;
+	padding: 10px 25px;
+	color: #FFFFFF;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+
+.menu ul li a:hover {
+	color: #CFC91D;
+}
+
+/*banner part*/
+.full-banner {
+	background: url(../images/banner.jpg) left top no-repeat;
+	background-size: cover;
+	padding: 200px 0;
+	position: relative;
+	z-index: 1;
+}
+
+.banner-overlay {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.50);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.banner-text {
+	text-align: center;
+}
+
+.banner-text h3, h1, p {
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.banner-text h3{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.banner-text h1{
+	font-size: 60px;
+	font-weight: 700;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+}
+
+.banner-text p{
+	font-size: 12px;
+	font-weight: 400;
+}
