@@ -9,6 +9,10 @@
 	clear: both;
 }
 
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 a {
 	text-decoration: none;
 }
@@ -20,6 +24,9 @@ ul, ol {
 .full-wr {
 	width: 100%
 }
+
+/*common part end*/
+
 
 .main-wr {
 	width: 1140px;
@@ -57,7 +64,6 @@ ul, ol {
 	color: #FFFFFF;
 	font-size: 12px;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 }
 
@@ -87,31 +93,30 @@ ul, ol {
 .banner-text {
 	text-align: center;
 	color: #ffffff;
-	font-family: 'Open Sans', sans-serif;
 }
 
-.banner-text h3{
+.banner-text h3 {
 	font-size: 30px;
 	font-weight: 400;
 }
 
-.banner-text h1{
+.banner-text h1 {
 	font-size: 68px;
 	font-weight: 800;
 	letter-spacing: 30px;
 	text-transform: uppercase;
 }
 
-.banner-text p{
+.banner-text p {
 	font-size: 18px;
 	font-weight: 400;
 }
 
-.banner-shape{
+.banner-shape {
 	margin: 45px 0;
 }
 
-.banner-text a{
+.banner-text a {
 	background-color: #CFC91D;
 	padding: 20px 45px;
 	font-size: 14px;
@@ -124,9 +129,78 @@ ul, ol {
 	border: 1px solid transparent;
 }
 
-.banner-text a:hover{
+.banner-text a:hover {
 	background-color: transparent;
 	border-color: #CFC91D;
 	color: #ffffff;
 }
+
+/*about part*/
+.full-about {
+	padding: 100px 0;
+}
+
+.section-title {
+	text-align: center;
+}
+
+.section-title h4 {
+	color: #02918c;
+	font-size: 45px;
+	font-weight: 800;
+}
+
+.section-title p {
+	font-size: 16px;
+	font-weight: 400;
+	color: #7e8287;
+	padding: 35px 0;
+	width: 80%;
+	line-height: 34px;
+	margin: auto;
+}
+
+.section-title p span {
+	font-weight: 800;
+	font-size: 24px;
+}
+
+.about-bottom{
+	padding: 70px 0;
+}
+.about-col {
+	width: 25%;
+	float: left;
+}
+
+.about-content {
+	text-align: center;
+	border-right: 1px solid #d9dbdb;
+}
+
+.last-about-col{
+	border-right: none;
+}
+
+.about-content i {
+	color: #05928d;
+	font-size: 30px;
+}
+
+.about-content h4 {
+	margin: 25px 0;
+	font-weight: 800;
+	font-size: 16px;
+	color: #7e8287;
+}
+
+.about-content p{
+	font-size: 14px;
+	font-weight: 400;
+	color: #7e8287;
+	padding: 10px 30px;
+	line-height: 25px;
+}
+
+/*services part*/
 
