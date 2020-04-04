@@ -235,4 +235,41 @@ ul, ol {
 	padding: 0;
 }
 
+/*work part*/
+.full-work{
+	padding: 100px 0;
+}
+
+.work-item{
+	width: 25%;
+	float: left;
+	line-height: 0;
+	position: relative;
+}
+
+.work-item img{
+	width: 100%;
+}
+
+.img-overlay{
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	background-color: rgba(2, 145, 140, 0.57);
+	height: 80%;
+	width: 80%;
+	opacity: 0;
+	transition: all 0.5s linear;
+	line-height: normal;
+	color: #ffffff;
+	text-align: center;
+}
+
+.img-overlay h4{
+	margin: 20px 0;
+}
+.work-item:hover .img-overlay{
+	opacity: 1;
+}
+
 
