@@ -201,57 +201,57 @@ ul, ol {
 
 /*services part*/
 
-.full-services{
+.full-services {
 	background: url(../images/service-bg.jpg) top left no-repeat;
 	background-size: cover;
 	padding: 70px 0;
 }
 
-.service-col{
+.service-col {
 	width: 50%;
 	float: left;
 }
 
-.service-top .section-title{
+.service-top .section-title {
 	text-align: left;
 }
 
-.service-top .section-title p{
+.service-top .section-title p {
 	width: 100%;
 }
 
-.service-bottom .about-col{
+.service-bottom .about-col {
 	width: 50%;
 	float: left;
 }
 
-.service-bottom .about-content{
+.service-bottom .about-content {
 	border-right: none;
 	text-align: left;
 	margin-top: 50px;
 }
 
-.service-bottom .about-content p{
+.service-bottom .about-content p {
 	padding: 0;
 }
 
 /*work part*/
-.full-work{
+.full-work {
 	padding: 100px 0;
 }
 
-.work-item{
+.work-item {
 	width: 25%;
 	float: left;
 	line-height: 0;
 	position: relative;
 }
 
-.work-item img{
+.work-item img {
 	width: 100%;
 }
 
-.img-overlay{
+.img-overlay {
 	position: absolute;
 	top: 10%;
 	left: 10%;
@@ -265,11 +265,21 @@ ul, ol {
 	text-align: center;
 }
 
-.img-overlay h4{
+.img-overlay h4 {
 	margin: 20px 0;
 }
-.work-item:hover .img-overlay{
+
+.work-item:hover .img-overlay {
 	opacity: 1;
 }
 
+/*contact part*/
+.full-contact{
+	padding: 100px 0;
+}
 
+.contact-bottom{
+	background-color: #000;
+	height: 600px;
+	bottom: 0;
+}

@@ -1,0 +1,112 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+.clr {
+	clear: both;
+}
+
+.full-wr {
+	width: 100%;
+}
+
+/*common part end*/
+.main-wr {
+	width: 1140px;
+	margin: auto;
+}
+
+.full-header{
+    padding: 30px 0;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+}
+
+.logo {
+	width: 30%;
+	float: left;
+}
+
+.menu {
+	width: 70%;
+	float: left;
+    text-align: right;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 10px 12px;
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.full-banner{
+    background: url(../images/banner.jpg) left top no-repeat;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    z-index: 1;
+}
+
+.full-banner:before{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: -1;
+}
+.main-banner{
+    position: relative;
+    height: 100%;
+}
+.banner-txt{
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    text-align: right;
+}
+
+.banner-dot{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
+
+.banner-dot ul li{
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.banner-dot ul li:hover{
+    background-color: #9b2424;
+}
+
+
