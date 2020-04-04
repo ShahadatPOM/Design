@@ -165,9 +165,6 @@ ul, ol {
 	font-size: 24px;
 }
 
-.about-bottom{
-	padding: 70px 0;
-}
 .about-col {
 	width: 25%;
 	float: left;
@@ -178,7 +175,7 @@ ul, ol {
 	border-right: 1px solid #d9dbdb;
 }
 
-.last-about-col{
+.last-about-col {
 	border-right: none;
 }
 
@@ -194,7 +191,7 @@ ul, ol {
 	color: #7e8287;
 }
 
-.about-content p{
+.about-content p {
 	font-size: 14px;
 	font-weight: 400;
 	color: #7e8287;
@@ -203,4 +200,39 @@ ul, ol {
 }
 
 /*services part*/
+
+.full-services{
+	background: url(../images/service-bg.jpg) top left no-repeat;
+	background-size: cover;
+	padding: 70px 0;
+}
+
+.service-col{
+	width: 50%;
+	float: left;
+}
+
+.service-top .section-title{
+	text-align: left;
+}
+
+.service-top .section-title p{
+	width: 100%;
+}
+
+.service-bottom .about-col{
+	width: 50%;
+	float: left;
+}
+
+.service-bottom .about-content{
+	border-right: none;
+	text-align: left;
+	margin-top: 50px;
+}
+
+.service-bottom .about-content p{
+	padding: 0;
+}
+
 
