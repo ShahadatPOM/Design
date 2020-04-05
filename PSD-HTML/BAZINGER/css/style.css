@@ -81,8 +81,8 @@ ul, ol {
 	font-family: 'Lato', sans-serif;
 	position: absolute;
 	color: #fff;
-	left: 50%;
-	top: 20%;
+	left: 45%;
+	top: 35%;
 }
 
 .banner-text h2 {
@@ -136,6 +136,75 @@ ul, ol {
 .banner-hand-img img {
 	height: 100%;
 	width: 100%;
+}
+
+/*summarise part*/
+.full-summarise {
+	font-family: 'Lato', sans-serif;
+	padding: 20px 0;
+	background-color: #f5f6fa;
+}
+
+.section-title{
+	text-align: center;
+}
+
+.section-title h3{
+	font-size: 28px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.section-title p{
+	font-size: 14px;
+	font-weight: 300;
+}
+/*summarise bottom*/
+.summarise-col{
+	float: left;
+	width: 25%;
+}
+
+.summarise-content{
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.summarise-content i{
+	margin: 20px 0;
+	font-size: 44px;
+	background-color: transparent;
+	height: 70px;
+	padding: 20px 10px 0 10px;
+	width: 70px;
+	color: #4BCAFF;
+	border: 1px solid #4BCAFF;
+	border-radius: 50%;
+	transition: all 0.5s linear;
+	cursor: pointer;
+}
+
+.summarise-col:hover .summarise-content i{
+	background-color: #4BCAFF;
+	color: #fff;
+}
+
+.summarise-content h4{
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 700;
+	transition: all 0.5s linear;
+	cursor: pointer;
+}
+
+.summarise-col:hover .summarise-content h4{
+	color: #4BCAFF;
+}
+
+.summarise-content p{
+	font-size: 14px;
+	font-weight: 300;
+	padding: 10px 10px;
 }
 
 /*pricing part*/
