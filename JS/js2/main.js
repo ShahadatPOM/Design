@@ -1,3 +1,4 @@
+/*
 // value compare
 function main() {
 	var a = parseInt(document.getElementById('first').value);
@@ -12,6 +13,7 @@ function main() {
 		document.write("<h3>Max value is C</h3>");
 	}
 }
+*/
 
 /*// for loop
 document.write("<select>")
@@ -22,13 +24,16 @@ for (i = 2010; i <= 3000; i++) {
 document.write("</select")*/
 
 // namta
-var i, j;
-
-for(i=1; i<=5; i++){
-	document.write("<div class='namta'>")
-	document.write("<h2>For " + i + "</h2>");
-	for(j=1; j<=10; j++){
-		document.write(i + " X " + j + " = " + i*j + "<br><br>");
+function namta(){
+	var i, j;
+	var n = document.getElementById('num').value;
+	for (i = 1; i <= n; i++) {
+		document.write("<div class='namta'>")
+		document.write("<h2>For " + i + "</h2>");
+		for (j = 1; j <= 10; j++) {
+			document.write(i + " X " + j + " = " + i * j + "<br><br>");
+		}
+		document.write("</div>")
 	}
-	document.write("</div>")
+
 }
