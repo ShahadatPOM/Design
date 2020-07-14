@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.clr{
+    clear: both;
+}
+
+.full{
+    width: 100%;
+}
+
+.main{
+    width: 1140px;
+    margin: auto;
+}
+/* banner part */
+.full-banner{
+    background: url(../images/banner.jpg) left top no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.full-banner:before{
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.63);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: "";    
+}
+
+.slider2{
+    background: url(../images/banner2.jpg) left top no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+}
+
+.nxtArrow{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    color: #fff;
+    z-index: 5;
+    padding: 5px;
+    background-color: #e91010;
+    transform: translate();
+}
+.prvArrow{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    color: #fff;
+    z-index: 5;
+    padding: 5px;
+    background-color: #e91010;
+    transform: translate();
+
+
+}
+
+.slick-dots{
+    bottom: 25px;
+}
+
+.slick-dots li button{
+    border-radius: 50%;
+    background: transparent;
+    border: 3px solid #fff;
+    width: 5px;
+    height: 5px;
+    
+}
+
+.slick-dots li.slick-active button{
+    background: #fff;
+}
+
+.slick-dots li button::before{
+    font-size: 0;
+}
+
+.slick-dotted.slick-slider{
+    margin-bottom: 0;
+}
+
+/* team-part */
+.full-team{
+    background: #f1f1f1;
+    padding: 80px 0;
+}
+.team-col{
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.full-team .slick-dots li button{
+    border-color: #b4adad;
+}
+
+.full-team .slick-dots{
+    bottom: -25px;
+}
+
+.full-team .slick-dots li.slick-active button{
+    background: #b4adad;
+}
